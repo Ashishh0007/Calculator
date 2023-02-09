@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(90deg, rgb(232, 105, 105), rgb(248, 238, 240));
+    
+}
+
+#container {
+    width: 100%;
+    background-image: linear-gradient(90deg, rgb(232, 105, 105), rgb(248, 238, 240));
+    background-repeat: no-repeat;
+
+}
+
+#title {
+    margin-top: 10px;
+    width: min(48vh, 80vw);
+    height: 10vh;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.2vh;
+    letter-spacing: 3px;
+    word-spacing: 1px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 20px rgb(253, 253, 253);
+    background-size: 70px;
+    background-color: black;
+    position: absolute;
+    margin-top: -72vh;
+    box-shadow: 0px 0px 30px rgb(255, 255, 255);
+}
+
+div {
+    display: flex;  
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(226,224,224);
+}
+
+#calculator {
+    
+    align-items: center;
+    margin-top: 25vh;
+    height: 60vh;
+    width: min(67vh, 95vw);
+    border-radius: 0.8vh;
+    box-shadow: 0px 0px 30px rgb(189, 225, 251);
+}
+
+#heading {
+    width: 97%;
+    height: 8vh;
+    color: white;
+    background-color: black;
+    margin-top: 2vh;        
+    margin-bottom: 1vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.2vh;
+}
+
+#display-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 3.8vh;
+    color: rgb(228, 98, 98);
+    width: 97%;
+    height: 20%;
+    height: 15vh;
+    background-color: white;
+    text-align: right !important;
+    margin-bottom: 1vh;
+    border-radius: 0.8vh;
+    position: relative;
+    
+}
+
+p {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+    text-align: right;
+    height: auto;
+    width: 97%;
+    position: absolute;
+    overflow: hidden;
+}
+
+.button {
+    width: 23.5%;
+    height: 9%;
+    font-size: 3.8vh;
+    /* font-size: 1.8rem; */
+    margin: 2px 2px;
+    background-color: white;
+}
+
+.button:hover {
+    background-color: rgb(252, 222, 156);
+}
+
+.operator {
+    background-color: rgb(193,68,68);
+}
+
+.five {
+    margin-bottom: 1vh;
+}
+
+
+
